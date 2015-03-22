@@ -1,0 +1,137 @@
+$colorBackground: #f2f2f2;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+/*.box { @include border-radius(10px); }*/
+
+
+body {
+    margin:auto;
+    background: $colorBackground;
+    width: 90%;
+    color: white;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica, Arial", "Lucida Grande", "sans-serif";
+  	font-weight:100;
+}
+
+#header {
+    background-color: #2e3038;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+}
+
+#name {
+    display: inline-block;
+    font-family: helvetica;
+  	font-weight:100;
+    font-size: 1.8em;
+    position: relative;
+    line-height:50px;
+}
+
+#hamburger {
+    height:44px;
+    float:right;
+}
+
+#emailHeader {
+    display:none;
+}
+
+#coverphoto {
+    width: 100%; 
+    display:none;  
+}
+
+#navContainer {
+    display:none;
+}
+
+
+
+.navLinks {
+    text-decoration: none;
+    width:100%;
+    text-align: center;
+    margin: 1px;
+}
+
+
+
+/* To fix misplaced tedt in nav bar with pictures*/
+.navtext {
+	line-height:50px;
+
+}
+
+.logo {
+     height: 30px;
+     left: 20px;
+     position: absolute;
+     top:10px;
+}
+
+.content {
+    @include border-radius(5px);
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin: 0%;
+}
+
+
+
+
+
+#resumeContainer {
+	background: #FAFAFA;
+	color:black;
+    width:100%;
+    margin:auto;
+}
+
+
+.contentText {
+	padding: 0 5%;
+}
+
+#resumeTitle {
+    font-size: 2.5em;
+    position: relative;
+}
+
+#about {
+	text-align: center;
+    width:100%;
+    background-color: #454854;
+
+}
+
+.sidebarTitle {
+    font-size: 2em
+}
+
+#footer {
+	background-color:#4b5b6f;
+	height:50px;
+	position: relative;
+	clear:both;
+    width:100%;
+    margin:auto;
+    text-align: center;
+}
+ #copyrite, #emailFooter {
+     display:inline-block;
+     margin:0 4%;
+     line-height: 50px;
+}
+
+
+

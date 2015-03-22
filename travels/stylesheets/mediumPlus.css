@@ -1,0 +1,9 @@
+#resumeContainer {
+    width:70%;
+    float:left;
+}
+
+#about {
+    width:28%;
+    float:right;
+}
