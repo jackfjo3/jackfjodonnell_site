@@ -2,16 +2,16 @@
 body {
   margin: auto;
   background: #f2f2f2;
-  width: 90%;
   color: white;
   font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica, Arial", "Lucida Grande", "sans-serif";
   font-weight: 100; }
 
 #header {
-  background-color: #2e3038;
   height: 50px;
   padding: 10px;
-  position: relative;}
+  position: absolute;
+  background-color: rgba(0, 128, 0, 0.66);
+  width: 100%;}
 
 #name {
   display: inline-block;
@@ -30,7 +30,7 @@ body {
 
 #emailHeader {
   display: none; 
-  letter-spacing: 1px;}
+  letter-spacing: 2px;}
 
 #coverphoto {
   width: 100%;
@@ -58,8 +58,11 @@ body {
     font-size: 1.5em;
     letter-spacing: 1px;}
 
-/* To fix misplaced tedt in nav bar with pictures*/
 
+.mainContainer {
+  width: 90%;
+  background-color: red;
+}
 
 .content {
   -webkit-border-radius: 5px;

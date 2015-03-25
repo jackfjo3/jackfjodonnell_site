@@ -36,11 +36,13 @@
 
 #navContainer {
     display: table;
-    background-color: #657b95;
+    background-color: rgba(29, 43, 78, 0.62);
     margin-bottom: 5%;
     margin: auto;
     text-align:center;
-    width:100%;}
+    width:100%;
+    position: relative;
+    top: -50px}
 
 .navLinks {
     letter-spacing: .5px;
