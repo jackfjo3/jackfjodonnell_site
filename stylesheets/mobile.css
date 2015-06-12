@@ -1,7 +1,7 @@
 /*.box { @include border-radius(10px); }*/
 body {
   margin: auto;
-  background: #f2f2f2;
+  background: #E2E2E2;
   color: white;
   font-family: "proxima-nova", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica, Arial", "Lucida Grande", "sans-serif";
   font-weight: 100; }
@@ -9,9 +9,12 @@ body {
 #header {
   height: 50px;
   padding: 10px;
-  position: absolute;
-  background-color: rgba(0, 128, 0, 0.66);
-  width: 100%;}
+  position: relative;
+  /* background-color: rgba(0, 128, 0, 0.66); */
+  text-shadow: 0px 1px 4px black;
+  width: 100%;
+  background-color: rgba(29, 43, 78, 0.62)
+}
 
 #name {
   display: inline-block;
@@ -19,7 +22,8 @@ body {
   font-weight: 100;
   font-size: 1.3em;
   position: relative;
-  line-height: 50px;}
+  top: 12px;
+  line-height: 1.3em;}
 
 #hamburger {
   position:absolute;
@@ -30,7 +34,9 @@ body {
 
 #emailHeader {
   display: none; 
-  letter-spacing: 2px;}
+  letter-spacing: 2px;
+  line-height: 3em;
+}
 
 #coverphoto {
   width: 100%;
@@ -53,25 +59,20 @@ body {
   text-align: center;
   margin: 1px 0px;
   line-height: 50px;
-    background-color:#657b95;
+    background-color:rgba(109, 117, 139, 0.63);
     color:white;
     font-size: 1.5em;
     letter-spacing: 1px;}
 
 
-.mainContainer {
+#mainContainer {
   width: 90%;
-  background-color: red;
+  /* background-color: red; */
+  margin: auto;
 }
 
 .content {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: gray;
-  border-width: 1px;
+  padding:2%;
   margin: 0%; }
 
 #resumeContainer {
@@ -90,14 +91,24 @@ margin:3% 0;}
   position: relative; }
 
 #about {
-    position: relative;
-  width: 100%;
-  background-color: #454854;
+  position: relative;
+  /* width: 80; */
   margin:3% 0;
-  letter-spacing: 1px; }
+  letter-spacing: 1px; 
+  /* top: 300; */
+}
+
+#technologies {
+position: relative;
+width: 100%;
+background-color: rgba(86, 110, 152, 0.75);
+margin:3% 0;
+letter-spacing: 1px; }
 
 .sidebarTitle {
-  font-size: 2em; }
+  text-align: center;
+  font-size: 2em;
+  margin: 20 0; }
 
 #footer {
   background-color: #4b5b6f;
@@ -111,6 +122,7 @@ margin:3% 0;}
 #copyrite, #emailFooter {
   display: inline-block;
   margin: 0 4%;
+  letter-spacing: 1px;
   line-height: 50px; }
 
 /*# sourceMappingURL=mobile.css.map */

@@ -1,9 +1,18 @@
-#resumeContainer {
+/*#resumeContainer {
     width:70%;
     float:left;
+    display: block;
 }
+
+#technologies {
+    width:28%;
+    float:right;
+    display: block;
+}
+
 
 #about {
     width:28%;
     float:right;
+    display: block;
 }
