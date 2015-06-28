@@ -1,0 +1,44 @@
+
+  .portfolio {
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    padding: .2em 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+
+  }
+
+
+  .portfolio-item {
+    width: 95%;
+    background-color: gray;
+    margin: .6em;
+    height: 300px;
+  }
+
+  .portfolio-item > img {
+    width: 90%;
+    height: 190px;
+    margin: .5em 0;
+  }
+
+@media screen and (min-width: 700px) {
+  .portfolio-item {
+    width: 45%;
+    display: inline-block;
+  }
+
+@media screen and (min-width: 1000px) {
+  .portfolio {
+
+  }
+
+
+  .portfolio-item {
+    width: 30%;
+  }
+
+  .portfolio-item > img {
+  }
+
+}

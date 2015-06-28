@@ -1,11 +1,12 @@
 
 #header {
+    box-shadow: 1px 0px 10px rgba(0, 3, 8, 0.34);
     text-align: left;
-    position: absolute;
     background-color: transparent
     ;}
 
 #name {
+    display:none;
     position: relative;
     left:1.5%;
     font-size: 3em;}
@@ -38,42 +39,106 @@
 }
 
 #navContainer {
-    display: table;
-    background-color: rgba(29, 43, 78, 0.62);
+    /* display: table; */
+    /* background-color: rgba(0, 0, 0, 0.09); */
     margin-bottom: 5%;
     margin: auto;
+    background-color: green;
     text-align:center;
     width:100%;
     position: relative;
-    top: -50px}
+    /* top: -50px */}
+
+#navContainer ul {
+    /* display: inline; */
+}
+
+
+
+
+
+/* NAVBAR NEW */
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  /* background-color: rgba(128, 0, 128, 0.19); */
+}
+
+.navbar-list {
+  list-style: none;
+  display: inline-block;
+  /* background-color: yellow; */
+  float:right;
+  margin-right: 1em;
+}
+
+.nav {
+  /* background-color: green; */
+  display: inline-block;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  padding: .5em 1em;
+  font-size: 1.5em;
+  text-shadow: 0px 0px 13px black;
+}
+
+.nav:hover {
+  background-color: blue;
+}
+
+.nav > a {
+  text-decoration: none;
+   color: white;
+}
+
+/* end NAVBAR NEW */
+
+
+
+
+
+
+
 
 .navLinks {
-    letter-spacing: .5px;
-    /*box-shadow: 1px 1px 10px #4a4a4a;*/
-    border-radius: 0px; 
-    text-decoration: none;
-    color:white;
-    text-align: center;
-    height:50px;
-    width:20%;
-    display:table-cell;
-    font-size: 1.5em;
-    position:relative;
-    background-color:transparent;
-    line-height: 50px;}
+    /* letter-spacing: .5px; */
+    /* box-shadow: 1px 1px 10px #4a4a4a; */;;
+    /* border-radius: 0px; */ 
+    /* text-decoration: none; */
+    /* color: black; */
+    /* text-align: center; */
+    /* height:50px; */
+    /* width:20%; */
+    /* display:table-cell; */
+    color: black;
+    font-size: 1em;
+    /* position:relative; */
+    background-color: white;
+    /* line-height: 50px; */}
 
 /*box-shadow: 1px 1px 10px #4a4a4a;*/
 .navLinks:hover {
     background-color: #b5c0cd;
     color:#2e3038; }
 
-#jumpo {
-    background-image: url('images/coverphoto.jpeg')
+#jumbo {
+    background-image: url('../images/coverphoto.jpeg');
+    height: 355px;
+    background-size: cover;
+    /* box-shadow: 0px 0px 8px black; */
 }
 
-#resumeContainer, #about {
-    width:100%;
+#about {
+    background-color: transparent;
+    /* top: 160; */
+}
+
+#about .contentText {
+    color:white;
+    /* width:100%; */
     margin:3% 0;
-    background-color: rgba(255, 0, 0, 0.68);
+    top: 100;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 19px black;
 }
 
