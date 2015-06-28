@@ -5,6 +5,18 @@
 #about {
 }
 
+.portfolio {
+
+}
+
+
+.portfolio-item {
+width: 30%;
+}
+
+.portfolio-item > img {
+}
+
 /*#resumeContainer {
     width:70%;
     float:left;

@@ -142,3 +142,8 @@
     text-shadow: 0px 0px 19px black;
 }
 
+.portfolio-item {
+  width: 45%;
+  display: inline-block;
+}
+
